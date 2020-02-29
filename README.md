@@ -18,26 +18,26 @@ Than create a create a new instance of a Logger like this:<br/>
 
 A ClassLogger is meant to be a logger for a class / module of your application.<br/>
 In contrast a FunctionLogger can be used to output what happens in a certain function of your class. Create one like this:<br/>
-`
+
     createThePanel(table, mode, isLoading){  
         const logger = Logger.getFunctionLogger("App", "createThePanel");
-`
+
 <br/>
 
 Here's some sample output:<br/>
 ![sample](https://github.com/akreienbring/js-log/logger.png)
 
 You can easily disable / enable loggers like this:<br/> 
-`
+
     Logger.disable("App");  
     Logger.enable("App");
-`
+
 <br/><br/>  
 Or you choose to disable / enable all loggers:<br/>
-`
+
      Logger.disableAll();
      Logger.enableAll();
-`
+
 <br/><br/>  
 Thats it! Happy logging!<br/><br/>
 
