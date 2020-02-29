@@ -38,7 +38,7 @@ Or you choose to disable / enable all loggers:<br/>
 Logger.disableAll();
 Logger.enableAll();
 `
-<br/> 
+<br/><br/>  
 Thats it! Happy logging!<br/><br/>
 
 Feb, 2020<br/>
