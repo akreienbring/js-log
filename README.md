@@ -35,8 +35,8 @@ You can easily disable / enable loggers like this:<br/>
 <br/><br/>  
 Or you choose to disable / enable all loggers:<br/>
 `
-    Logger.disableAll();
-    Logger.enableAll();
+     Logger.disableAll();
+     Logger.enableAll();
 `
 <br/><br/>  
 Thats it! Happy logging!<br/><br/>
