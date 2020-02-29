@@ -32,13 +32,13 @@ You can easily disable / enable loggers like this:<br/>
 Logger.disable("App");  
 Logger.enable("App");
 `
-<br/> 
+<br/><br/>  
 Or you choose to disable / enable all loggers:<br/>
 `
 Logger.disableAll();
 Logger.enableAll();
 `
-
+<br/> 
 Thats it! Happy logging!<br/><br/>
 
 Feb, 2020<br/>
