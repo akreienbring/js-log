@@ -40,7 +40,13 @@ Or you choose to disable / enable all loggers:<br/>
     Logger.disableAll();
     Logger.enableAll();
 
-<br/><br/>  
+<br/>
+
+Finally replace all your "console.log / .error / .info / .debug / .warn" statements with their
+
+    logger.log / .error / .info / .debug / .warn
+counterparts. <br/>
+
 Thats it! Happy logging!<br/><br/>
 
 Feb, 2020<br/>
