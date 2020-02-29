@@ -27,7 +27,7 @@ In contrast a FunctionLogger can be used to output what happens in a certain fun
 <br/>
 
 Here's some sample output:<br/>
-![sample](https://github.com/akreienbring/js-log/logger.png)
+![sample](https://github.com/akreienbring/js-log/tree/master/screen/logger.png)
 
 You can easily disable / enable loggers like this:<br/> 
 
