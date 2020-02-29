@@ -3,7 +3,7 @@ A simple logging utility for javascript
 
 ## Why another javascript logger?
 The answer is simple: Searching up and down the net I couldn't find one that fullfilled my need. 
-I was looking for a logging utility that creates readable (grouped) output AND maintaines the original console context.<br/><br/>
+I was looking for a logging utility that creates readable (grouped) output AND maintains the original console context.<br/><br/>
 
 That means that the information where the output was logged can still be examined in the debugging console of the browser.
 Sounds simple but I ended up using javascript proxies for that purpose and intercepted calls to the logger... Long story short: I had to follow a steep learning curve :-) <br/>
