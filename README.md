@@ -17,7 +17,7 @@ Than create a create a new instance of a Logger like this:<br/>
 `const logger = Logger.getNewClassLogger("App");` <br/><br/>
 
 A ClassLogger is meant to be a logger for a class / module of your application.<br/>
-There are also FunctionLogger which can be used to output what happens in a certain function of your class. Create one like this:<br/><br/>
+In contrast a FunctionLogger can be used to output what happens in a certain function of your class. Create one like this:<br/>
 `
 createThePanel(table, mode, isLoading){  
     const logger = Logger.getFunctionLogger("App", "createThePanel");
