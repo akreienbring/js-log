@@ -12,11 +12,11 @@ Maybe this little repo speeds up the work of other javascript developers.<br/><b
 ## What can you do with it?
 Just download the js file and import it into your project:<br/> 
 
-    import {Logger} from "./logger.js";<br/><br/>
+    import {Logger} from "./logger.js";
 
 Than create a create a new instance of a Logger like this:<br/>
 
-    const logger = Logger.getNewClassLogger("App"); <br/><br/>
+    const logger = Logger.getNewClassLogger("App");
 
 A ClassLogger is meant to be a logger for a class / module of your application.<br/>
 In contrast a FunctionLogger can be used to output what happens in a certain function of your class. Create one like this:<br/>
