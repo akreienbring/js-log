@@ -1,7 +1,7 @@
 # js-log
 A simple logging utility for javascript
 
-##Why another javascript logger?
+## Why another javascript logger?
 The answer is simple: Searching up and down the net I could'nt find one that fullfilled my need. 
 I was looking for a logging utility that creates readable (grouped) output AND maintaines the original console context.
 
@@ -9,7 +9,7 @@ That means that the information where the output was logged can still be examine
 Sounds simple but I ended up using javascript proxies for that purpose and intercepted calls to the logger... Long story short: I had to follow a steep learning curve :-) 
 Maybe this little repo speeds up the work of other javascript developers.
 
-##What can you do with it?
+## What can you do with it?
 Just download the js file and import it into your project: 
 `import {Logger} from "./logger.js";`
 
