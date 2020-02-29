@@ -3,42 +3,43 @@ A simple logging utility for javascript
 
 ## Why another javascript logger?
 The answer is simple: Searching up and down the net I could'nt find one that fullfilled my need. 
-I was looking for a logging utility that creates readable (grouped) output AND maintaines the original console context.
+I was looking for a logging utility that creates readable (grouped) output AND maintaines the original console context.<br/><br/>
 
 That means that the information where the output was logged can still be examined in the debugging console of the browser.
-Sounds simple but I ended up using javascript proxies for that purpose and intercepted calls to the logger... Long story short: I had to follow a steep learning curve :-) 
-Maybe this little repo speeds up the work of other javascript developers.
+Sounds simple but I ended up using javascript proxies for that purpose and intercepted calls to the logger... Long story short: I had to follow a steep learning curve :-) <br/>
+Maybe this little repo speeds up the work of other javascript developers.<br/><br/>
 
 ## What can you do with it?
-Just download the js file and import it into your project: 
-`import {Logger} from "./logger.js";`
+Just download the js file and import it into your project:<br/> 
+`import {Logger} from "./logger.js";`<br/><br/>
 
-Than create a create a new instance of a Logger like this:
-`const logger = Logger.getNewClassLogger("App");` 
+Than create a create a new instance of a Logger like this:<br/>
+`const logger = Logger.getNewClassLogger("App");` <br/><br/>
 
-A ClassLogger is meant to be a logger for a class / module of your application.
-There are also FunctionLogger which can be used to output what happens in a certain function of your class. Create one like this:
+A ClassLogger is meant to be a logger for a class / module of your application.<br/>
+There are also FunctionLogger which can be used to output what happens in a certain function of your class. Create one like this:<br/><br/>
 `
 createThePanel(table, mode, isLoading){
   const logger = Logger.getFunctionLogger("App", "createThePanel");
 `
+<br/>
 
-Here's some sample output:
+Here's some sample output:<br/>
 ![sample](https://github.com/akreienbring/js-log/logger.png)
 
 You can easily disable / enable loggers like this:
 `
-Logger.disable("App");
+Logger.disable("App");<br/>
 Logger.enable("App");
 `
-Or you choose to disable / enable all loggers:
+Or you choose to disable / enable all loggers:<br/>
 `
-Logger.disableAll();
+Logger.disableAll();<br/>
 Logger.enableAll();
 `
 
-Thats it! Happy logging!
+Thats it! Happy logging!<br/><br/>
 
-Feb, 2020
+Feb, 2020<br/>
 André Kreienbring
 
