@@ -21,7 +21,7 @@ Than create a create a new instance of a Logger like this:<br/>
 A ClassLogger is meant to be a logger for a class / module of your application.<br/>
 In contrast a FunctionLogger can be used to output what happens in a certain function of your class. Create one like this:<br/>
 
-    createThePanel(table, mode, isLoading){  
+    createThePanel(){  
         const logger = Logger.getFunctionLogger("App", "createThePanel");
 
 <br/>
