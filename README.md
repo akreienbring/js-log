@@ -14,7 +14,7 @@ Just download the js file and import it into your project:<br/>
 
     import {Logger} from "./logger.js";
 
-Then create a create a new instance of a Logger like this:<br/>
+Then create a new instance of a Logger like this:<br/>
 
     const logger = Logger.getNewClassLogger("App");
 
